@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal interactivo de Mafer: diseño visual, exploración orgánica y proyectos digitales."
+    />
+    <title>MAFER | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cursor-blob" aria-hidden="true"></div>
+    <div class="page-decorations" aria-hidden="true">
+      <img class="decor-cloud decor-cloud-one" src="assets/images/decorations/nube%20morada.svg" alt="" />
+      <img class="decor-cloud decor-cloud-two" src="assets/images/decorations/nube%20rosa.svg" alt="" />
+      <img class="decor-cloud decor-cloud-three" src="assets/images/decorations/nube%20celeste.svg" alt="" />
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ir al inicio">
+        <img src="assets/images/Logo/Logo_oficial.svg" alt="MAFER" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" aria-label="Navegacion principal">
+        <a href="#home">Inicio</a>
+        <a href="#work">Trabajos</a>
+        <a href="#about">Sobre mí</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <img class="theme-dot" src="assets/images/decorations/circulo_morado.svg" alt="" aria-hidden="true" />
+    </header>
+
+    <main>
+      <section id="home" class="section hero-section section-light">
+        <div class="section-shell hero-shell">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Digital designer / Creative coding</p>
+            <h1>MAFER <span>una forma en proceso.</span></h1>
+            <p class="hero-text">
+              Diseño experiencias visuales que mezclan identidad, interfaz y movimiento: sistemas claros con una energía orgánica, táctil y memorable.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-dark magnetic" href="#work">Explorar universo</a>
+              <a class="button button-light magnetic" href="#work">Ver portfolio</a>
+            </div>
+          </div>
+
+          <div class="hero-art reveal" aria-label="Ilustracion principal de Mafer">
+            <img class="hero-illustration" src="assets/images/hero/Home_hero.svg" alt="Ilustración orgánica principal de Mafer" />
+            <div class="orbital-line line-one"></div>
+            <div class="orbital-line line-two"></div>
+            <img class="spark spark-one" src="assets/images/decorations/circulo_morado.svg" alt="" aria-hidden="true" />
+            <img class="spark spark-two" src="assets/images/decorations/circulo_rosado.svg" alt="" aria-hidden="true" />
+            <img class="spark spark-three" src="assets/images/decorations/circulos.svg" alt="" aria-hidden="true" />
+          </div>
+        </div>
+        <a class="scroll-cue" href="#manifesto" aria-label="Bajar al manifiesto">
+          <span></span>
+          Scroll
+        </a>
+      </section>
+
+      <img class="organic-separator" src="assets/images/decorations/lineas%20organicas.svg" alt="" aria-hidden="true" />
+
+      <section id="manifesto" class="section manifesto-section section-dark">
+        <div class="section-shell split-shell">
+          <div class="reveal">
+            <p class="eyebrow">No soy una forma terminada</p>
+            <h2>Diseño en evolución, exploración constante y nuevas posibilidades.</h2>
+          </div>
+          <div class="manifesto-art reveal" aria-hidden="true">
+            <div class="organic-card">
+              <img class="unfinished-form" src="assets/images/hero/Forma_no_terminada.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="section-shell explore-grid">
+          <article class="explore-item reveal">
+            <img src="assets/images/areas/ux_ui.svg" alt="" aria-hidden="true" />
+            <h3>UI / UX</h3>
+            <p>Diseño centrado en personas.</p>
+          </article>
+          <article class="explore-item reveal">
+            <img src="assets/images/areas/branding.svg" alt="" aria-hidden="true" />
+            <h3>Branding</h3>
+            <p>Identidades que cuentan historias.</p>
+          </article>
+          <article class="explore-item reveal">
+            <img src="assets/images/areas/motion.svg" alt="" aria-hidden="true" />
+            <h3>Motion Design</h3>
+            <p>Movimiento que da vida.</p>
+          </article>
+          <article class="explore-item reveal">
+            <img src="assets/images/areas/creative%20coding.svg" alt="" aria-hidden="true" />
+            <h3>Creative coding</h3>
+            <p>Codigo que construye mundos.</p>
+          </article>
+        </div>
+      </section>
+
+      <img class="organic-separator organic-separator-alt" src="assets/images/decorations/lineas%20organicas.svg" alt="" aria-hidden="true" />
+
+      <section id="work" class="section work-section section-light">
+        <div class="section-shell">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Trabajos seleccionados</h2>
+          </div>
+
+          <div class="filter-bar reveal" aria-label="Filtros de proyectos">
+            <button class="filter-chip is-active" type="button" data-filter="all">Todos</button>
+            <button class="filter-chip" type="button" data-filter="ui">UI / UX</button>
+            <button class="filter-chip" type="button" data-filter="brand">Branding</button>
+            <button class="filter-chip" type="button" data-filter="motion">Motion</button>
+            <button class="filter-chip" type="button" data-filter="interactive">Interactivo</button>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card reveal" data-category="interactive motion">
+              <div class="project-card-media">
+                <img src="assets/images/images_tarjetas/Forma_01.png" alt="FORMA_01 videojuego" />
+              </div>
+              <div class="project-card-content">
+                <span>FORMA_01</span>
+                <h3>Game / Interactivo</h3>
+                <p>Videojuego experimental sobre forma, movimiento y exploración visual.</p>
+              </div>
+              <a class="round-link magnetic" href="https://mafer2013.github.io/FORMA_01/" aria-label="Abrir FORMA_01">-></a>
+            </article>
+            <article class="project-card reveal" data-category="brand ui">
+              <div class="project-card-media">
+                <img src="assets/images/images_tarjetas/Redise%C3%B1o.png" alt="Linea grafica 2026 TIB Bolivia" />
+              </div>
+              <div class="project-card-content">
+                <span>Linea Grafica 2026 TIB BOLIVIA</span>
+                <h3>Rediseño / Branding</h3>
+                <p>Sistema visual para una comunicación clara, actual y consistente.</p>
+              </div>
+              <a class="round-link magnetic" href="https://www.facebook.com/share/1Xq34bEr2a/" aria-label="Abrir linea grafica 2026 TIB Bolivia">-></a>
+            </article>
+            <article class="project-card tall reveal" data-category="ui interactive">
+              <div class="project-card-media">
+                <img src="assets/images/images_tarjetas/aplicaci%C3%B3n.png" alt="SBD MarketApp" />
+              </div>
+              <div class="project-card-content">
+                <span>SBD MarketApp</span>
+                <h3>Aplicación / UI</h3>
+                <p>App experimental para comerciantes del mercado de Sabadell.</p>
+              </div>
+              <a class="round-link magnetic" href="#contact" aria-label="Consultar SBD MarketApp">-></a>
+            </article>
+            <article class="project-card reveal" data-category="motion">
+              <div class="project-card-media">
+                <video src="assets/images/images_tarjetas/animaci%C3%B3n.mp4" autoplay muted loop playsinline></video>
+              </div>
+              <div class="project-card-content">
+                <span>Animación</span>
+                <h3>Motion Design</h3>
+                <p>Pieza en movimiento con ritmo suave y lenguaje visual orgánico.</p>
+              </div>
+              <a class="round-link magnetic" href="https://www.tiktok.com/@maryfer.lu?is_from_webapp=1&sender_device=pc" aria-label="Consultar animación">-></a>
+            </article>
+            <article class="project-card reveal" data-category="brand">
+              <div class="project-card-media">
+                <img src="assets/images/images_tarjetas/Arte%20publicitario.png" alt="Artes publicitarios" />
+              </div>
+              <div class="project-card-content">
+                <span>Artes publicitarios</span>
+                <h3>Branding / Social</h3>
+                <p>Piezas gráficas para campañas, redes y comunicación visual.</p>
+              </div>
+              <a class="round-link magnetic" href="https://www.facebook.com/share/1Xq34bEr2a/" aria-label="Consultar artes publicitarios">-></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <img class="organic-separator" src="assets/images/decorations/lineas%20organicas.svg" alt="" aria-hidden="true" />
+
+      <section id="about" class="section about-section section-light">
+        <div class="section-shell about-layout">
+          <div class="about-copy reveal">
+            <p class="eyebrow">Sobre mí</p>
+            <h2>Diseño con curiosidad, estética y una búsqueda constante.</h2>
+            <p>
+              Me muevo entre identidad, interfaces, prototipos y pequeños sistemas visuales. 
+              Busco que cada pieza se sienta clara, expresiva y lista para evolucionar.
+            </p>
+            <p class="signature">en proceso.</p>
+          </div>
+          <div class="portrait-card reveal" aria-hidden="true">
+            <img class="about-cloud about-cloud-primary" src="assets/images/decorations/nube%20morada.svg" alt="" />
+            <img class="about-cloud about-cloud-secondary" src="assets/images/decorations/nube%20rosa.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="section-shell journey reveal">
+          <h3>Mi viaje</h3>
+          <div class="journey-map">
+            <img class="journey-node node-2018" src="assets/images/decorations/nube%20morada.svg" alt="" aria-hidden="true" />
+            <img class="journey-node node-2020" src="assets/images/decorations/nube%20rosa.svg" alt="" aria-hidden="true" />
+            <img class="journey-node node-2022" src="assets/images/decorations/nube%20morada.svg" alt="" aria-hidden="true" />
+            <img class="journey-node node-2024" src="assets/images/decorations/nube%20celeste.svg" alt="" aria-hidden="true" />
+            <div class="journey-note note-2018">
+              <strong>2018</strong>
+              <span>Exploraba distintos caminos y me quedé con dos: un mundo lleno de amor al medio ambiente y otro, un mundo lleno de creatividad.</span>
+            </div>
+            <div class="journey-note note-2020">
+              <strong>2020</strong>
+              <span>Exploré diferentes áreas y encontré un lugar donde la creatividad para comunicar es importante.</span>
+            </div>
+            <div class="journey-note note-2022">
+              <strong>2022</strong>
+              <span>Me lancé al mundo del diseño y empece mis proyectos personales.</span>
+            </div>
+            <div class="journey-note note-2024">
+              <strong>2026</strong>
+              <span>Sigo evolucionando, aprendiendo y transformando ideas en experiencias.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-shell soft-skills reveal">
+          <h3>Habilidades clave</h3>
+          <div class="skill-outline-grid" aria-label="Habilidades clave">
+            <span class="skill-outline magnetic">DISEÑO<br />UI / UX</span>
+            <span class="skill-outline magnetic">Branding</span>
+            <span class="skill-outline magnetic">Motion<br />Design</span>
+            <span class="skill-outline magnetic">Vibe <br />Coding</span>
+            <span class="skill-outline magnetic">3D<br />Básico</span>
+            <span class="skill-outline magnetic">Código<br />creativo</span>
+            <span class="skill-outline magnetic">Prototipado</span>
+            <span class="skill-outline magnetic">Ilustración</span>
+          </div>
+        </div>
+      </section>
+
+      <img class="organic-separator organic-separator-alt" src="assets/images/decorations/lineas%20organicas.svg" alt="" aria-hidden="true" />
+
+      <section id="contact" class="section contact-section section-light">
+        <div class="section-shell contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow">Contact</p>
+            <h2>Hagamos algo extraordinario juntos.</h2>
+            <p>Tienes una idea, proyecto o simplemente quieres conectar? Me encantaria escucharte.</p>
+            <div class="social-row">
+              <a class="magnetic social-mail" href="mailto:lujanfernada160@gmail.com">
+                <img src="assets/images/icons/icono_correo.svg" alt="" aria-hidden="true" /></a>
+              <a class="magnetic" href="https://www.instagram.com/maryfer_lu/" target="_blank" rel="noreferrer" aria-label="Instagram">
+                <img src="assets/images/icons/icono_instagram.svg" alt="" aria-hidden="true" />
+              </a>
+              <a class="magnetic" href="https://www.linkedin.com/in/luján-fernanda-4994a5395?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+                <img src="assets/images/icons/icono_linkedin.svg" alt="" aria-hidden="true" />
+              </a>
+              <a class="magnetic" href="https://github.com/MaFer2013" target="_blank" rel="noreferrer" aria-label="GitHub">
+                <img src="assets/images/icons/icono_github.svg" alt="" aria-hidden="true" />
+              </a>
+            </div>
+          </div>
+          <form class="contact-form reveal">
+            <label>
+              <span>Nombre completo</span>
+              <input type="text" name="name" placeholder="Nombre completo" />
+            </label>
+            <label>
+              <span>Correo electrónico</span>
+              <input type="email" name="email" placeholder="Correo electrónico" />
+            </label>
+            <label class="wide">
+              <span>Asunto</span>
+              <input type="text" name="subject" placeholder="Asunto" />
+            </label>
+            <label class="wide">
+              <span>Mensaje</span>
+              <textarea name="message" rows="5" placeholder="Tu mensaje"></textarea>
+            </label>
+            <button class="button button-gradient magnetic wide" type="submit">Enviar mensaje</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img class="footer-logo" src="assets/images/Logo/Logo_oficial.svg" alt="MAFER" />
+      <a href="mailto:lujanfernada160@gmail.com">lujanfernada160@gmail.com</a>
+      <span>Portfolio interactivo 2026</span>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
