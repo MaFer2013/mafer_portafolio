@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1898.04 152.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Degradado_sin_nombre_19);
+        opacity: .96;
+      }
+    </style>
+    <radialGradient id="Degradado_sin_nombre_19" data-name="Degradado sin nombre 19" cx="949.02" cy="76.03" fx="949.02" fy="76.03" r="673.21" gradientUnits="userSpaceOnUse">
+      <stop offset=".58" stop-color="#231e46"/>
+      <stop offset=".73" stop-color="#443463"/>
+      <stop offset="1" stop-color="#8a63a0"/>
+    </radialGradient>
+  </defs>
+  <path class="cls-1" d="M0,101.63c263.67-309.67,1194.89,206.81,1898.04,0"/>
+</svg>
